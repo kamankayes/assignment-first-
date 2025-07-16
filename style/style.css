@@ -1,0 +1,195 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f9f9ff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: url("Assets/Hero-bg.png") no-repeat center;
+  background-size: cover;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #3a3aff;
+}
+
+.navbar .btn {
+  padding: 10px 20px;
+  background-color: #3a3aff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: url("Assets/Hero-bg.png") no-repeat center;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.hero .btn {
+  background-color: #3a3aff;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 10%;
+}
+
+.action .text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.action .text p {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.action img {
+  width: 250px;
+  border-radius: 12px;
+}
+
+.stats {
+  background-color: #eaeaff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.stats h3 {
+  font-size: 30px;
+  color: #3a3aff;
+}
+
+.stats p {
+  color: #555;
+}
+
+.testimonials {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card p:first-child {
+  background: url("Assets/icon-star.png") no-repeat left center;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.focus {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.focus img {
+  margin-top: 30px;
+  width: 60%;
+  border-radius: 12px;
+}
+
+.contact {
+  padding: 60px 10%;
+  background-color: #f1f1ff;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 12px;
+  background-color: #3a3aff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #f9f9ff;
+  padding: 30px 10%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer .logo {
+  font-size: 24px;
+  color: #3a3aff;
+  margin-bottom: 10px;
+}
